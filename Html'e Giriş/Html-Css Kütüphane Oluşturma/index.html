@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmrullahYabasunCSSKutuphane</title>
+    <link rel="stylesheet" href="./assets/css/library.css">
+</head>
+
+<body>
+    <div class="grid-row">
+        <div class="col-2 col-md-1 col-sm-1">
+            <section class="nav-fixed">
+                <ul class="nav-fixed-menu">
+                    <li class="menu-item">
+                        <a href="#grid-yapisi"> GRID YAPISI
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#renkler"> RENKLER
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#yazi-boyutlari">YAZI BOYUTLARI
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#yazi-fontlari"> YAZI FONTLARI
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#margin-ve-padding">MARGIN VE PADDING
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#slider">SLIDER
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#tablolar">TABLOLAR
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#resimler">RESİMLER
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#butonlar">BUTONLAR
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#resim-containerlari">RESİM CONTAİNERLARI
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#nav-menuler">NAV MENULER
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#dropdown-menu">DROPDOWN MENU
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#form-elemanlari">FORM ELEMANLARI
+                        </a>
+                    </li>
+            </section>
+        </div>
+        <div class="col-10 col-md-11 col-sm-11">
+            <!-- Grid Yapısı -->
+            <section id="grid-yapisi">
+                <h1 class="ml2">Grid Yapısı</h1>
+                <p class="ml3"> Kütüphanede 12 kolonlu Izgara sistemi kullanılmıştır.İlgili media query'leri sayesinde
+                    responsive
+                    olarak kullanılabilir.Aşağıda ilgili classlar kullanarak içeriklerinizi nasıl yerleştirebileceğinizi
+                    görebilirsiniz.</p>
+                <hr>
+                <div class="grid-row">
+                    <div class="col-1" style="background-color: gray;">
+                        col-1</div>
+                    <div class="col-2" style="background-color: red;">
+                        col-2</div>
+                    <div class="col-3" style="background-color: gray;">
+                        col-3</div>
+                    <div class="col-4" style="background-color: red;">
+                        col-4</div>
+                    <div class="col-5" style="background-color: gray;">
+                        col-5</div>
+                    <div class="col-6" style="background-color: red;">
+                        col-6</div>
+                    <div class="col-7" style="background-color: gray;">
+                        col-7</div>
+                    <div class="col-8" style="background-color: red;">
+                        col-8</div>
+                    <div class="col-9" style="background-color: gray;">
+                        col-9</div>
+                    <div class="col-10" style="background-color: red;">
+                        col-10</div>
+                    <div class="col-11" style="background-color: gray;">
+                        col-11</div>
+                    <div class="col-12" style="background-color: red;">
+                        col-12</div>
+                </div>
+                <div>
+                    <p class="ml3">
+                        Yukarıda her bir elemanın kapladığı yer, isimleri gibi tanımlanmış classlar ile yapılmaktadır.
+                        Bu
+                        classların kullanımını aşağıda görebilirsiniz.
+                    </p>
+                </div>
+                <div class="precode">
+                    <pre>
+                <h2 class="hs4 ml3">HTML</h2>
+                <code>
+                    &lt;div class=&quot;grid-row&quot;&gt;
+                    &lt;div class=&quot;col-1&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-1&lt;/div&gt;
+                    &lt;div class=&quot;col-2&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-2&lt;/div&gt;
+                    &lt;div class=&quot;col-3&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-3&lt;/div&gt;
+                    &lt;div class=&quot;col-4&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-4&lt;/div&gt;
+                    &lt;div class=&quot;col-5&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-5&lt;/div&gt;
+                    &lt;div class=&quot;col-6&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-6&lt;/div&gt;
+                    &lt;div class=&quot;col-7&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-7&lt;/div&gt;
+                    &lt;div class=&quot;col-8&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-8&lt;/div&gt;
+                    &lt;div class=&quot;col-9&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-9&lt;/div&gt;
+                    &lt;div class=&quot;col-10&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-10&lt;/div&gt;
+                    &lt;div class=&quot;col-11&quot; style=&quot;background-color: gray;&quot;&gt;
+                        col-11&lt;/div&gt;
+                    &lt;div class=&quot;col-12&quot; style=&quot;background-color: red;&quot;&gt;
+                        col-12&lt;/div&gt;
+                &lt;/div&gt;
+                </code>
+            </pre>
+                </div>
+            </section>
+            <!-- RENKLER -->
+            <section id="renkler">
+                <h1 class="ml2">Renkler</h1>
+                <p class="ml3">Root kullanılarak 10 adet ana renk ve her rengin 5 farklı tonu olmak üzere toplamda 50
+                    adet renk variable'ı hazırlandı.Bu variablelar kullanılarak arkaplan ve yazı rengi classları
+                    oluşturuldu.</p>
+                <p class="ml3">Aşağıda bu classların örneklerini ve html kodlarını görebilirsiniz.</p>
+                <hr>
+                <div class="grid-row">
+                    <div class="col-5">
+                        <p class="bg-red fs2">bg-red</p>
+                        <p class="txt-red fs2">bg-red</p>
+                        <p class="bg-green fs2">bg-green</p>
+                        <p class="txt-green fs2">bg-green</p>
+                        <p class="bg-blue fs2">bg-blue</p>
+                        <p class="txt-blue fs2">bg-blue</p>
+                        <p class="bg-gray fs2">bg-gray</p>
+                        <p class="txt-gray fs2">bg-gray</p>
+                        <p class="bg-yellow fs2">bg-yellow</p>
+                        <p class="txt-yellow fs2">bg-yellow</p>
+                        <p class="bg-magenta fs2">bg-magenta</p>
+                        <p class="txt-magenta fs2">bg-magenta</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-5">
+                        <p class="bg-cyan fs2">bg-cyan</p>
+                        <p class="txt-cyan fs2">bg-cyan</p>
+                        <p class="bg-brown fs2">bg-brown</p>
+                        <p class="txt-brown fs2">bg-brown</p>
+                        <p class="bg-pink fs2">bg-pink</p>
+                        <p class="txt-pink fs2">bg-pink</p>
+                        <p class="bg-orange fs2">bg-orange</p>
+                        <p class="txt-orange fs2">bg-orange</p>
+                    </div>
+                    <div class="col-12 precode">
+                        <pre>
+                            <h4 class="hs4 ml3">HTML</h1>
+    <code>
+        &lt;p class=&quot;bg-red fs2&quot;&gt;bg-red&lt;/p&gt;
+        &lt;p class=&quot;txt-red fs2&quot;&gt;bg-red&lt;/p&gt;
+        &lt;p class=&quot;bg-green fs2&quot;&gt;bg-green&lt;/p&gt;
+        &lt;p class=&quot;txt-green fs2&quot;&gt;bg-green&lt;/p&gt;
+        &lt;p class=&quot;bg-blue fs2&quot;&gt;bg-blue&lt;/p&gt;
+        &lt;p class=&quot;txt-blue fs2&quot;&gt;bg-blue&lt;/p&gt;
+        &lt;p class=&quot;bg-gray fs2&quot;&gt;bg-gray&lt;/p&gt;
+        &lt;p class=&quot;txt-gray fs2&quot;&gt;bg-gray&lt;/p&gt;
+        &lt;p class=&quot;bg-yellow fs2&quot;&gt;bg-yellow&lt;/p&gt;
+        &lt;p class=&quot;txt-yellow fs2&quot;&gt;bg-yellow&lt;/p&gt;
+        &lt;p class=&quot;bg-magenta fs2&quot;&gt;bg-magenta&lt;/p&gt;
+        &lt;p class=&quot;txt-magenta fs2&quot;&gt;bg-magenta&lt;/p&gt;
+        &lt;p class=&quot;bg-cyan fs2&quot;&gt;bg-cyan&lt;/p&gt;
+        &lt;p class=&quot;txt-cyan fs2&quot;&gt;bg-cyan&lt;/p&gt;
+        &lt;p class=&quot;bg-brown fs2&quot;&gt;bg-brown&lt;/p&gt;
+        &lt;p class=&quot;txt-brown fs2&quot;&gt;bg-brown&lt;/p&gt;
+        &lt;p class=&quot;bg-pink fs2&quot;&gt;bg-pink&lt;/p&gt;
+        &lt;p class=&quot;txt-pink fs2&quot;&gt;bg-pink&lt;/p&gt;
+        &lt;p class=&quot;bg-orange fs2&quot;&gt;bg-orange&lt;/p&gt;
+        &lt;p class=&quot;txt-orange fs2&quot;&gt;bg-orange&lt;/p&gt;
+</code>
+</pre>
+                    </div>
+
+                </div>
+                <hr>
+            </section>
+            <!-- YAZI BOYUTLARI -->
+            <section id="yazi-boyutlari">
+                <h1 class="ml2">YAZI BOYUTLARI</h1>
+                <p class="ml3">Yazı boyutları için düz metin yazıları için 10, başlıklar için 5 olmak üzere toplamda 15
+                    yazı boyutu belirlendi. Her bir yazı boyutunu classlar ile kullanabilirsiniz.Ayrıca bu classlar
+                    variable değerleri kullandığı için toplu ayarlamalara izin vermektedir.</p>
+                <p class="ml3">Aşağıda göreceğiniz yazıların her biri o yazıya boyutunu veren classların isimleridir.
+                    Size uygun yazı boyutu classını seçebilirsiniz.</p>
+                <div class="grid-row bg-yellow">
+                    <div class="col-4">
+                        <p class="fs1">.fs1</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs2">.fs2</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs3">.fs3</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs4">.fs4</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs5">.fs5</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs5">.fs5</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs5">.fs5</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs6">.fs6</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs6">.fs6</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs7">.fs7</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs8">.fs8</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs9">.fs9</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="fs10">.fs10</p>
+                    </div>
+                </div>
+                <div class="grid-row bg-yellow">
+                    <div class="col-4">
+                        <p class="hs1">.hs1</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="hs2">.hs2</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="hs3">.hs3</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="hs4">.hs4</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="hs5">.hs5</p>
+                    </div>
+                </div>
+            </section>
+            <!-- YAZI FONTLARI -->
+            <section id="yazi-fontlari">
+                <h1 class="ml2">YAZI FONTLARI</h1>
+                <p class="ml3">Websitelerinde en sık kullanılan 5 yazı fontu derlendi.Tarayıcıların fontları okuyamaması
+                    durunumuna karşın her font classına yedek fontlar eklendi.</p>
+                <p class="ml3">Aşağıda bu font classlarının örneklerini görebilirsiniz. Her yazı tipinde yazılan isimler
+                    oyazı tipini elde etmek için kullanmanız gereken classların isimleridir.</p>
+                <hr>
+                <div class="grid-row" style="margin-left: 15%; margin-right: 15%;">
+                    <div class="col-2"></div>
+                    <div class="col-1">
+                        <p class="font-1">.font-1</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-1">
+                        <p class="font-2">.font-2</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-1">
+                        <p class="font-3">.font-3</p>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                    <div class="col-1">
+                        <p class="font-4">.font-4</p>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-1">
+                        <p class="font-5">.font-5</p>
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <!-- MARGIN VE PADDING -->
+            <section id="margin-ve-padding">
+                <h1 class="ml2">MARGIN VE PADDING</h1>
+                <p class="ml3">0'dan başlayıp 5'e kadar toplam 6 variable pixel değeriyle margin ve padding class
+                    sistemlerinin temeli kuruldu. Her birisi 6 class'a sahip olmak üzere margin, margin-top,
+                    margin-left, margin-right, margin-bottom classları ve aynı seçeneklerle padding classları
+                    oluşturuldu.
+                </p>
+                <p class="ml3">Margin ve padding classlarından ayrı ayrı 5 toplam 10 örnek ile her classtan bir
+                    örnek gösterildi.Her örnek kendi class ismini taşımaktadır.Örneklerin daha iyi anlaşılabilmesi adına
+                    her birisi kırmızı bir buton olarak
+                    tasarlandı.</p>
+                <p class="ml3">Aşağıda margin örneklerini görmektesiniz.Lütfen butonların kenarlarından nasıl
+                    uzaklaştığına dikkat ediniz.</p>
+                <hr>
+                <p class="btn-red-outlined m0">.m0</p>
+                <hr>
+                <p class="btn-red-outlined mt1">.mt1</p>
+                <hr>
+                <p class="btn-red-outlined ml2">.ml2</p>
+                <hr>
+                <p class="btn-red-outlined mr3">.mr3</p>
+                <hr>
+                <p class="btn-red-outlined mb4">.mb4</p>
+                <hr>
+                <p class="ml3">Aşağıda padding örneklerini görmektesiniz.Lütfen yazıların kenarları nasıl ittirdiğine
+                    dikkat ediniz.</p>
+                <div class="bg-red">
+                    <hr>
+                    <p class="p1">.p1</p>
+                    <hr>
+                    <p class="pt2">.pt2</p>
+                    <hr>
+                    <p class="pl3">.pl3</p>
+                    <hr>
+                    <p class="pr4">.pr4</p>
+                    <hr>
+                    <p class="pb5">.pb5</p>
+                    <hr>
+                </div>
+            </section>
+            <!-- SLIDER -->
+            <section id="slider">
+                <h1 class="ml2">SLIDER</h1>
+                <p class="ml3">3 farklı slider sistemi kuruldu.Bu sliderların her birisi görselleri taşırmadan kendi
+                    içerisinde tutmaktadır.Aşağıda örnekleriyle birlikte her bir sliderin html ve css class düzeni
+                    paylaşıldı.
+                </p>
+                <hr>
+                <section class="slider-container">
+
+                    <div class="slider1">
+                        <img class="slide" src="./assets/images/2.png" alt="">
+
+                        <img class="slide" src="./assets/images/3.jpg" alt="">
+
+                        <img class="slide" src="./assets/images/4.jpg" alt="">
+
+                        <img class="slide" src="./assets/images/3.jpg" alt="">
+                </section>
+                <hr>
+                <div class="precode">
+                    <pre> <h2 class="hs4 ml3"> Slider 1</h2>
+                        <code>
+                            &lt;section class=&quot;slider-container&quot;&gt;
+
+                    &lt;div class=&quot;slider1&quot;&gt;
+                        &lt;img class=&quot;slide&quot;
+                            src=&quot;./assets/images/2.png&quot; alt=&quot;&quot;&gt;
+            
+                        &lt;img class=&quot;slide&quot; src=&quot;./assets/images/3.jpg&quot;
+                            alt=&quot;&quot;&gt;
+            
+                        &lt;img class=&quot;slide&quot;
+                            src=&quot;./assets/images/4.jpg&quot; alt=&quot;&quot;&gt;
+            
+                        &lt;img class=&quot;slide&quot; src=&quot;./assets/images/3.jpg&quot;
+                            alt=&quot;&quot;&gt;
+                &lt;/section&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+                <section class="slider-container">
+                    <div class="slider2">
+                        <img class="slide" src="./assets/images/2.png" alt="">
+
+                        <img class="slide" src="./assets/images/3.jpg" alt="">
+
+                        <img class="slide" src="./assets/images/4.jpg" alt="">
+
+                        <img class="slide" src="./assets/images/3.jpg" alt="">
+                    </div>
+                </section>
+                <hr>
+                <div class="precode">
+                    <pre> <h2 class="hs4 ml3"> Slider 2</h2>
+                        <code>
+                            &lt;section class=&quot;slider-container&quot;&gt;
+        &lt;div class=&quot;slider2&quot;&gt;
+            &lt;img class=&quot;slide&quot;
+                src=&quot;./assets/images/2.png&quot; alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide&quot; src=&quot;./assets/images/3.jpg&quot;
+                alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide&quot;
+                src=&quot;./assets/images/4.jpg&quot; alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide&quot; src=&quot;./assets/images/3.jpg&quot;
+                alt=&quot;&quot;&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+                <section class="slider-container">
+                    <div class="slider3">
+                        <img class="slide-horizontal" src="./assets/images/2.png" alt="">
+
+                        <img class="slide-horizontal" src="./assets/images/3.jpg" alt="">
+
+                        <img class="slide-horizontal" src="./assets/images/4.jpg" alt="">
+
+                        <img class="slide-horizontal" src="./assets/images/3.jpg" alt="">
+                    </div>
+                </section>
+                <hr>
+                <div class="precode">
+                    <pre> <h2 class="hs4 ml3"> Slider 3</h2>
+                        <code>
+                            &lt;section class=&quot;slider-container&quot;&gt;
+        &lt;div class=&quot;slider3&quot;&gt;
+            &lt;img class=&quot;slide-horizontal&quot;
+                src=&quot;./assets/images/2.png&quot; alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide-horizontal&quot;
+                src=&quot;./assets/images/3.jpg&quot; alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide-horizontal&quot;
+                src=&quot;./assets/images/4.jpg&quot; alt=&quot;&quot;&gt;
+
+            &lt;img class=&quot;slide-horizontal&quot;
+                src=&quot;./assets/images/3.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <!-- TABLOLAR -->
+            <section id="tablolar">
+                <h1 class="ml2">TABLOLAR</h1>
+                <p class="ml3">Tablolar için responsive, bordered, striped ve hoverable olarak 4 adet tablo özelliği
+                    oluşturuldu.Yalznıca table etiketine doğru class ismi yazılarak bu 4 çeşit tabloya erişilebilir.</p>
+                <p class="ml3">Aşağıda bu tabloların class isimleri ve o classın oluşturduğu tablo örnekleri paylaşıldı
+                </p>
+                <hr>
+                <div style="display: flex;">
+                    <div class="ml5">
+                        <h2>.bordered-table</h2>
+                        <table class="bordered-table">
+                            <thead>
+                                <tr>
+                                    <th>Başlık 1</th>
+                                    <th>Başlık 2</th>
+                                    <th>Başlık 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Veri 1</td>
+                                    <td>Veri 2</td>
+                                    <td>Veri 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 4</td>
+                                    <td>Veri 5</td>
+                                    <td>Veri 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 7</td>
+                                    <td>Veri 8</td>
+                                    <td>Veri 9</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 10</td>
+                                    <td>Veri 11</td>
+                                    <td>Veri 12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="ml5">
+                        <h2>.striped-table</h2>
+                        <table class="striped-table">
+                            <thead>
+                                <tr>
+                                    <th>Başlık 1</th>
+                                    <th>Başlık 2</th>
+                                    <th>Başlık 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Veri 1</td>
+                                    <td>Veri 2</td>
+                                    <td>Veri 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 4</td>
+                                    <td>Veri 5</td>
+                                    <td>Veri 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 7</td>
+                                    <td>Veri 8</td>
+                                    <td>Veri 9</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 10</td>
+                                    <td>Veri 11</td>
+                                    <td>Veri 12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="ml5">
+                        <h2>.hoverable-table</h2>
+                        <table class="hoverable-table">
+                            <thead>
+                                <tr>
+                                    <th>Başlık 1</th>
+                                    <th>Başlık 2</th>
+                                    <th>Başlık 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Veri 1</td>
+                                    <td>Veri 2</td>
+                                    <td>Veri 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 4</td>
+                                    <td>Veri 5</td>
+                                    <td>Veri 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 7</td>
+                                    <td>Veri 8</td>
+                                    <td>Veri 9</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 10</td>
+                                    <td>Veri 11</td>
+                                    <td>Veri 12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="ml5">
+                        <h2>.responsive-table</h2>
+                        <table class="responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Başlık 1</th>
+                                    <th>Başlık 2</th>
+                                    <th>Başlık 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Veri 1</td>
+                                    <td>Veri 2</td>
+                                    <td>Veri 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 4</td>
+                                    <td>Veri 5</td>
+                                    <td>Veri 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 7</td>
+                                    <td>Veri 8</td>
+                                    <td>Veri 9</td>
+                                </tr>
+                                <tr>
+                                    <td>Veri 10</td>
+                                    <td>Veri 11</td>
+                                    <td>Veri 12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <p>Yukarıda 4 örneği olan tablo çeşitlerinden .bordered-table tablosunun html kodları aşağıdaki
+                    gibidir.class ismi diğer tabloların isimlerine değiştirildiği takdirde o tabloların görünümü elde
+                    edilebilecektir.</p>
+                <div class="precode">
+                    <pre>
+                            <h1>HTML</h1>
+                            <code>
+                                &lt;table class=&quot;bordered-table&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;th&gt;Başlık 1&lt;/th&gt;
+                                    &lt;th&gt;Başlık 2&lt;/th&gt;
+                                    &lt;th&gt;Başlık 3&lt;/th&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Veri 1&lt;/td&gt;
+                                    &lt;td&gt;Veri 2&lt;/td&gt;
+                                    &lt;td&gt;Veri 3&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Veri 4&lt;/td&gt;
+                                    &lt;td&gt;Veri 5&lt;/td&gt;
+                                    &lt;td&gt;Veri 6&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Veri 7&lt;/td&gt;
+                                    &lt;td&gt;Veri 8&lt;/td&gt;
+                                    &lt;td&gt;Veri 9&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Veri 10&lt;/td&gt;
+                                    &lt;td&gt;Veri 11&lt;/td&gt;
+                                    &lt;td&gt;Veri 12&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                            </code>
+                        </pre>
+                </div>
+                <hr>
+            </section>
+            <!-- RESIMLER -->
+            <section id="resimler">
+                <h1 class="ml2">RESİMLER</h1>
+                <p class="ml3">Bu kısımda 2 adet resim classı oluşturuldu. İlki resmin köşelerine radius vermekte olup,
+                    ikincisi ise resmi normal bir şekilde görüntülemektedir.</p>
+                <p class="ml3">Aşağıda bu classların nasıl çalıştığına dair örnekleri ve altlarında html kodlarını
+                    görüntüleyebilirsiniz.</p>
+                <hr>
+                <div>
+                    <img class="imgcircular" src="./assets/images/1.jpg" alt="">
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                        <code>
+                            &lt;img class=&quot;imgcircular&quot; src=&quot;./assets/images/1.jpg&quot; alt=&quot;&quot;&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+                <div>
+                    <img class="imgregular" src="./assets/images/1.jpg" alt="">
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                        <code>
+                            &lt;img class=&quot;imgregular&quot; src=&quot;./assets/images/1.jpg&quot; alt=&quot;&quot;&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+            </section>
+            <!-- BUTONLAR -->
+            <section id="butonlar">
+                <h1 class="ml2">BUTONLAR</h1>
+                <p class="ml3">Temel olarak iki buton kategorisi oluşturuldu.Outline butonlar ve normal butonlar.Bu
+                    butonların hepsinin ortak özellikleri ise arkaplan rengi,yazı rengi ve üzerine hover edildiğinde
+                    beliren renklerin birbirine karışmadan çalışmasıdır.Toplamda 20 adet renge sahip bir buton seti
+                    oluşturuldu.</p>
+                <p class="ml3">Aşağıda bu butonlardan 5'er adet olmak üzere toplam 10 örnek ve bu örneklerin html
+                    kodlarını inceleyebilirsiniz.Her butonun classı kendi içerisinde yazmaktadır.</p>
+                <hr>
+                <div class="grid-row" ;>
+                    <div class="col-4"></div>
+                    <div class="col-1">
+                        <button class="btn-red">btn-red</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-green">btn-green</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-blue">btn-blue</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-gray">btn-gray</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-yellow">btn-yellow</button>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                    <code>
+                        &lt;button class=&quot;btn-red&quot;&gt;btn-red&lt;/button&gt;
+                    </code>
+                </pre>
+                </div>
+                <div class="grid-row">
+                    <div class="col-4"></div>
+                    <div class="col-1">
+                        <button class="btn-magenta-outlined">btn-magenta-outlined</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-cyan-outlined">btn-cyan-outlined</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-brown-outlined">btn-brown-outlined</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-pink-outlined">btn-pink-outlined</button>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn-orange-outlined">btn-orange-outlined</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                    <code>
+                        &lt;button class=&quot;btn-magenta-outlined&quot;&gt;btn-magenta-outlined&lt;/button&gt;
+                    </code>
+                </pre>
+                </div>
+            </section>
+            <!-- RESIM CONTAINERLARI -->
+            <section id="resim-containerlari">
+                <h1 class="ml2">RESİM CONTAINERLARI</h1>
+                <p class="ml3">Bu kısımda resimler için 4 adet class oluşturuldu.esimin ortalı bir şekilde görüneni,
+                    resmin yüksekliğe göre ortalananı, resmin genişliğe göre ortalananı ve resmin orjinal boyutunda
+                    içeride dışarıya taşmadan containerına sığdığı toplamda 4 adet class aşağıda örneklendirilmiş ve
+                    html kodları eklenmiştir.</p>
+                <hr>
+                <div class="img-centered" style="width: 500px; height: 500px;"><img src="./assets/images/200px.png"
+                        alt=""></div>
+                <hr>
+                <div class="precode">
+                    <pre>
+                        <h1>HTML</h1>
+                        <code>
+                            &lt;div class=&quot;img-centered&quot; style=&quot;width: 500px; height: 500px;&quot;&gt;&lt;img src=&quot;./assets/images/200px.png&quot;
+                            alt=&quot;&quot;&gt;&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <div class="img-h-centered" style="width: 500px; height: 500px; "><img src="./assets/images/200px.png"
+                        alt=""></div>
+                <hr>
+                <div class="precode">
+                    <pre>
+                        <h1>HTML</h1>
+                        <code>
+                            &lt;div class=&quot;img-h-centered&quot; style=&quot;width: 500px; height: 500px; &quot;&gt;&lt;img src=&quot;./assets/images/200px.png&quot;
+                        alt=&quot;&quot;&gt;&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <div class="img-w-centered" style="width: 500px; height: 500px; "><img src="./assets/images/200px.png"
+                        alt=""></div>
+                <hr>
+                <div class="precode">
+                    <pre>
+                        <h1>HTML</h1>
+                        <code>
+                            &lt;div class=&quot;img-w-centered&quot; style=&quot;width: 500px; height: 500px; &quot;&gt;&lt;img src=&quot;./assets/images/200px.png&quot;
+                        alt=&quot;&quot;&gt;&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <div class="img-clipped" style="width: 500px; height: 500px;"><img src="./assets/images/1.jpg" alt="">
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre>
+                        <h1>HTML</h1>
+                        <code>
+                            &lt;div class=&quot;img-clipped&quot; style=&quot;width: 500px; height: 500px;&quot;&gt;&lt;img src=&quot;./assets/images/1.jpg&quot; alt=&quot;&quot;&gt;
+                &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <!-- NAV MENULER -->
+            <section id="nav-menuler">
+                <h1 class="ml2">NAV MENULER</h1>
+                <p class="ml3">Bu kısımda 3 ayrı nav menu yapıldı.Tüm site boyunca gezinti yaparken kullandığınız
+                    soldaki menü, inline bir menü ve son olarak block bir menü oluşturuldu.
+                </p>
+                <hr>
+                <p class="ml3">Sitede gezinmek için solda gördüğünüz menünün html kodlarını ve class isimlerini aşağıda
+                    görebilirsiniz.</p>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                        <code>&lt;section class=&quot;nav-fixed&quot;&gt;
+                            &lt;ul class=&quot;nav-fixed-menu&quot;&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#grid-yapisi&quot;&gt; GRID YAPISI
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#renkler&quot;&gt; RENKLER
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#yazi-boyutlari&quot;&gt;YAZI BOYUTLARI
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#yazi-fontlari&quot;&gt; YAZI FONTLARI
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#margin-ve-padding&quot;&gt;MARGIN VE PADDING
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#slider&quot;&gt;SLIDER
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#tablolar&quot;&gt;TABLOLAR
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#resimler&quot;&gt;RESİMLER
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#butonlar&quot;&gt;BUTONLAR
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#resim-containerlari&quot;&gt;RESİM CONTAİNERLARI
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#nav-menuler&quot;&gt;NAV MENULER
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#dropdown-menu&quot;&gt;DROPDOWN MENU
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;menu-item&quot;&gt;
+                                    &lt;a href=&quot;#form-elemanlari&quot;&gt;FORM ELEMANLARI
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                        &lt;/section&gt;</code></pre>
+                </div>
+                <hr>
+                <p class="ml3">Inline şeklinde tasarlanmış menüyü ve html kodlarını aşağıda inceleyebilirsiniz.</p>
+                <hr>
+                <div class="nav-inline">
+                    <ul class="nav-inline-menu">
+                        <li class="menu-item">
+                            <a href="#"> Ana Sayfa
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"> Kategoriler
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Galeri
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"> Hakkımızda
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">İletişim
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                    <code> &lt;div class=&quot;nav-inline&quot;&gt;
+                        &lt;ul class=&quot;nav-inline-menu&quot;&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;
+                                &lt;a href=&quot;#&quot;&gt; Ana Sayfa
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;
+                                &lt;a href=&quot;#&quot;&gt; Kategoriler
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;
+                                &lt;a href=&quot;#&quot;&gt;Galeri
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;
+                                &lt;a href=&quot;#&quot;&gt; Hakkımızda
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;
+                                &lt;a href=&quot;#&quot;&gt;İletişim
+                                &lt;/a&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;</code></pre>
+                </div>
+                <p class="ml3">Block şeklinde tasarlanmış menüyü ve html kodlarını aşağıda inceleyebilirsiniz.</p>
+                <hr>
+                <div class="nav-block">
+                    <ul class="nav-block-menu">
+                        <li class="menu-item">
+                            <a href="#"> Ana Sayfa
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"> Kategoriler
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Galeri
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#"> Hakkımızda
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">İletişim
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre><h1>HTML</h1>
+                    <code> &lt;div class=&quot;precode&quot;&gt;
+                        &lt;pre&gt;&lt;h1&gt;HTML&lt;/h1&gt;
+                        &lt;code&gt; &amp;lt;div class=&amp;quot;nav-inline&amp;quot;&amp;gt;
+                            &amp;lt;ul class=&amp;quot;nav-inline-menu&amp;quot;&amp;gt;
+                                &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
+                                    &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt; Ana Sayfa
+                                    &amp;lt;/a&amp;gt;
+                                &amp;lt;/li&amp;gt;
+                                &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
+                                    &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt; Kategoriler
+                                    &amp;lt;/a&amp;gt;
+                                &amp;lt;/li&amp;gt;
+                                &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
+                                    &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Galeri
+                                    &amp;lt;/a&amp;gt;
+                                &amp;lt;/li&amp;gt;
+                                &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
+                                    &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt; Hakkımızda
+                                    &amp;lt;/a&amp;gt;
+                                &amp;lt;/li&amp;gt;
+                                &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
+                                    &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;İletişim
+                                    &amp;lt;/a&amp;gt;
+                                &amp;lt;/li&amp;gt;
+                            &amp;lt;/ul&amp;gt;
+                        &amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+                    &lt;/div&gt;</code></pre>
+                </div>
+                <hr>
+            </section>
+            <!-- DROPDOWN MENU -->
+            <section id="dropdown-menu">
+                <h1 class="ml2">DROPDOWN MENU</h1>
+                <p class="ml3">Bu kısımda kullanıcının stilizasyonuna mümküm mertebe açık bir dropdown menüsü
+                    hazırlandı.Menü elemanları tasarımı ve açılır menü tasarımı fixlenmemiş olup kullanıcı ihtiyacına
+                    göre düzenlemeler yapabilmektedir.</p>
+                <p class="ml3">Aşağıda bu menü örneğini ve html kodlarını inceleyebilirsiniz.</p>
+                <hr>
+                <div style="height: 300px; display: flex; justify-content: center;">
+                    <div class="dropdown">
+                        <p>Mouse ile gezinin</p>
+                        <div class="dropdown-content">
+                            <p>İÇERİK</p>
+                            <p>İÇERİK</p>
+                            <p>İÇERİK</p>
+                            <p>İÇERİK</p>
+                            <p>İÇERİK</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="precode">
+                    <pre>
+                            <h1>HTML</h1>
+                            <code>
+                                &lt;div class=&quot;dropdown&quot;&gt;
+                                &lt;p&gt;Mouse ile gezinin&lt;/p&gt;
+                                &lt;div class=&quot;dropdown-content&quot;&gt;
+                                    &lt;p&gt;İÇERİK&lt;/p&gt;
+                                    &lt;p&gt;İÇERİK&lt;/p&gt;
+                                    &lt;p&gt;İÇERİK&lt;/p&gt;
+                                    &lt;p&gt;İÇERİK&lt;/p&gt;
+                                    &lt;p&gt;İÇERİK&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;   
+                            </code>
+                        </pre>
+                </div>
+                <hr>
+            </section>
+            <!-- FORM ELEMANLARI -->
+            <section id="form-elemanlari">
+                <h1 class="ml2">FORM ELEMANLARI</h1>
+                <p class="ml3">Bu menüde form elemanlarına stilizasyon verilerek default form elemanlarının basitliği
+                    arındırıldı.Aşağıda form elemanlarından oluşan bir örnek ve html kodları ile class isimlerini
+                    inceleyebilirsiniz.</p>
+                <hr>
+                <div>
+                    <form>
+                        <label for="adsoyad">Ad Soyad:</label>
+                        <input type="text" id="adsoyad" name="adsoyad">
+                        <hr>
+                        <input type="radio" id="1" name="1" value="1">
+                        <label for="html">1</label><br>
+                        <input type="radio" id="2" name="2" value="2">
+                        <label for="css">2</label><br>
+                        <hr>
+                        <input type="checkbox" id="araba" name="araba" value="araba">
+                        <label for="vehicle1"> Araba</label><br>
+                        <input type="checkbox" id="tren" name="tren" value="tren">
+                        <label for="vehicle2"> Tren</label>
+                        <hr>
+                        <label for="lname">Gönder:</label><br>
+                        <input type="text" id="gönder" name="gönder" value="gönder"><br><br>
+                        <input type="submit" value="gönder">
+                    </form>
+                </div>
+                <div class="precode">
+                    <h1>HTML</h1>
+                    <pre>
+                    <code>
+                            &lt;form&gt;
+                            &lt;label for=&quot;adsoyad&quot;&gt;Ad Soyad:&lt;/label&gt;
+                            &lt;input type=&quot;text&quot; id=&quot;adsoyad&quot; name=&quot;adsoyad&quot;&gt;
+                           &lt;hr&gt;
+                            &lt;input type=&quot;radio&quot; id=&quot;1&quot; name=&quot;1&quot; value=&quot;1&quot;&gt;
+                            &lt;label for=&quot;html&quot;&gt;1&lt;/label&gt;&lt;br&gt;
+                            &lt;input type=&quot;radio&quot; id=&quot;2&quot; name=&quot;2&quot; value=&quot;2&quot;&gt;
+                            &lt;label for=&quot;css&quot;&gt;2&lt;/label&gt;&lt;br&gt;
+                            &lt;hr&gt;
+                            &lt;input type=&quot;checkbox&quot; id=&quot;araba&quot; name=&quot;araba&quot; value=&quot;araba&quot;&gt;
+                            &lt;label for=&quot;vehicle1&quot;&gt; Araba&lt;/label&gt;&lt;br&gt;
+                            &lt;input type=&quot;checkbox&quot; id=&quot;tren&quot; name=&quot;tren&quot; value=&quot;tren&quot;&gt;
+                            &lt;label for=&quot;vehicle2&quot;&gt; Tren&lt;/label&gt;
+                            &lt;hr&gt;
+                            &lt;label for=&quot;lname&quot;&gt;Gönder:&lt;/label&gt;&lt;br&gt;
+                            &lt;input type=&quot;text&quot; id=&quot;gönder&quot; name=&quot;gönder&quot; value=&quot;gönder&quot;&gt;&lt;br&gt;&lt;br&gt;
+                            &lt;input type=&quot;submit&quot; value=&quot;gönder&quot;&gt;
+                        &lt;/form&gt;
+                        </code></pre>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,1300 @@
+:root {
+    /* Renkler */
+    --color-t1-red: #ffada9;
+    --color-t2-red: #ff5047;
+    --color-t3-red: #e40b00;
+    --color-t4-red: #820600;
+    --color-t5-red: #200100;
+
+    --color-t1-green: #baedba;
+    --color-t2-green: #6cda6c;
+    --color-t3-green: #2db62d;
+    --color-t4-green: #1a681a;
+    --color-t5-green: #061a06;
+
+    --color-t1-blue: #aac4fe;
+    --color-t2-blue: #4981fd;
+    --color-t3-blue: #024bea;
+    --color-t4-blue: #012c89;
+    --color-t5-blue: #000d28;
+
+    --color-t1-gray: #d8d8cf;
+    --color-t2-gray: #acac99;
+    --color-t3-gray: #7d7d66;
+    --color-t4-gray: #47473a;
+    --color-t5-gray: #11110e;
+
+    --color-t1-yellow: #fdfdaa;
+    --color-t2-yellow: #fbfb4a;
+    --color-t3-yellow: #e0e004;
+    --color-t4-yellow: #808002;
+    --color-t5-yellow: #202000;
+
+    --color-t1-magenta: #f6b1d0;
+    --color-t2-magenta: #ec599b;
+    --color-t3-magenta: #ce1668;
+    --color-t4-magenta: #750c3b;
+    --color-t5-magenta: #1d030e;
+
+    --color-t1-cyan: #66feff;
+    --color-t2-cyan: #1efeff;
+    --color-t3-cyan: #00d6d6;
+    --color-t4-cyan: #008e8e;
+    --color-t5-cyan: #004747;
+
+
+    --color-t1-brown: #ddd3ca;
+    --color-t2-brown: #b7a18e;
+    --color-t3-brown: #90745b;
+    --color-t4-brown: #544435;
+    --color-t5-brown: #18140f;
+
+    --color-t1-pink: #e8c0c0;
+    --color-t2-pink: #ce7978;
+    --color-t3-pink: #ad403e;
+    --color-t4-pink: #652624;
+    --color-t5-pink: #1d0b0a;
+
+    --color-t1-orange: #ffcba9;
+    --color-t2-orange: #ff9147;
+    --color-t3-orange: #e45c00;
+    --color-t4-orange: #823400;
+    --color-t5-orange: #200d00;
+
+
+    /* Header Font Size */
+    --hs1: 40px;
+    --hs2: 36px;
+    --hs3: 32px;
+    --hs4: 28px;
+    --hs5: 24px;
+    /* Text Font Size */
+    --fs1: 24px;
+    --fs2: 22px;
+    --fs3: 20px;
+    --fs4: 18px;
+    --fs5: 16px;
+    --fs6: 14px;
+    --fs7: 12px;
+    --fs8: 10px;
+    --fs9: 8px;
+    --fs10: 6px;
+
+    /* YAZI FONTU */
+    --font-1: Arial, sans-serif;
+    --font-2: 'Times New Roman', serif;
+    --font-3: Verdana, sans-serif;
+    --font-4: Helvetica, sans-serif;
+    --font-5: Georgia, serif;
+
+    /* MARGIN*/
+    --mp0: 0px;
+    --mp1: 10px;
+    --mp2: 20px;
+    --mp3: 30px;
+    --mp4: 40px;
+    --mp5: 50px;
+
+
+    /* PADDING */
+    --pp0: 0px;
+    --pp1: 10px;
+    --pp2: 20px;
+    --pp3: 30px;
+    --pp4: 40px;
+    --pp5: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.precode {
+    display: block;
+    width: 100%;
+}
+
+pre {
+    display: block;
+    overflow: auto;
+    background-color: #616161;
+    border: 5px solid #292929;
+
+
+
+}
+
+code {
+    display: block;
+    font-family: var(--font-3);
+    font-size: var(--fs7);
+    color: white;
+
+}
+
+/* 1. MADDE GRID YAPISI */
+/* Grid sistem kurulumu */
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+/* Grid Sistem Nesneleri */
+.col-1 {
+    grid-column: span 1;
+
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-5 {
+    grid-column: span 5;
+}
+
+.col-6 {
+    grid-column: span 6;
+
+}
+
+.col-7 {
+    grid-column: span 7;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
+.col-9 {
+    grid-column: span 9;
+}
+
+.col-10 {
+    grid-column: span 10;
+}
+
+.col-11 {
+    grid-column: span 11;
+}
+
+.col-12 {
+    grid-column: span 12;
+}
+
+/* 2.MADDE RENKLER */
+/* Renk Classları */
+
+.bg-red {
+    background-color: var(--color-t4-red) !important;
+}
+
+.txt-red {
+    color: var(--color-t3-red) !important;
+}
+
+.bg-green {
+    background-color: var(--color-t4-green) !important;
+}
+
+.txt-green {
+    color: var(--color-t3-green) !important;
+}
+
+
+
+.bg-blue {
+    background-color: var(--color-t4-blue) !important;
+}
+
+.txt-blue {
+    color: var(--color-t3-blue) !important;
+}
+
+
+.bg-gray {
+    background-color: var(--color-t4-gray) !important;
+}
+
+.txt-gray {
+    color: var(--color-t3-gray) !important;
+}
+
+
+.bg-yellow {
+    background-color: var(--color-t4-yellow) !important;
+}
+
+.txt-yellow {
+    color: var(--color-t3-yellow) !important;
+}
+
+
+
+.bg-magenta {
+    background-color: var(--color-t4-magenta) !important;
+}
+
+.txt-magenta {
+    color: var(--color-t3-magenta) !important;
+}
+
+
+
+.bg-cyan {
+    background-color: var(--color-t4-cyan) !important;
+}
+
+.txt-cyan {
+    color: var(--color-t3-cyan) !important;
+}
+
+
+
+.bg-brown {
+    background-color: var(--color-t4-brown) !important;
+}
+
+.txt-brown {
+    color: var(--color-t3-brown) !important;
+}
+
+
+
+.bg-pink {
+    background-color: var(--color-t4-pink) !important;
+}
+
+.txt-pink {
+    color: var(--color-t3-pink) !important;
+}
+
+
+
+.bg-orange {
+    background-color: var(--color-t4-orange) !important;
+}
+
+.txt-orange {
+    color: var(--color-t3-orange) !important;
+}
+
+
+
+/* 3.MADDE YAZI BOYUTLARI */
+/* HEADER FONT SIZE */
+
+.hs1 {
+    font-size: var(--hs1);
+}
+
+.hs2 {
+    font-size: var(--hs2);
+}
+
+.hs3 {
+    font-size: var(--hs3);
+}
+
+.hs4 {
+    font-size: var(--hs4);
+}
+
+.hs5 {
+    font-size: var(--hs5);
+}
+
+/* TEXT FONT SIZE */
+
+.fs1 {
+    font-size: var(--fs1);
+}
+
+.fs2 {
+    font-size: var(--fs2);
+}
+
+.fs3 {
+    font-size: var(--fs3);
+}
+
+.fs4 {
+    font-size: var(--fs4);
+}
+
+.fs5 {
+    font-size: var(--fs5);
+}
+
+.fs6 {
+    font-size: var(--fs6);
+}
+
+.fs7 {
+    font-size: var(--fs7);
+}
+
+.fs8 {
+    font-size: var(--fs8);
+}
+
+.fs9 {
+    font-size: var(--fs9);
+}
+
+.fs10 {
+    font-size: var(--fs10);
+}
+
+/* 4. MADDDE FONT TÜRLERI */
+.font-1 {
+    font-family: var(--font-1);
+}
+
+.font-2 {
+    font-family: var(--font-2);
+}
+
+.font-3 {
+    font-family: var(--font-3);
+}
+
+.font-4 {
+    font-family: var(--font-4);
+}
+
+.font-5 {
+    font-family: var(--font-5);
+}
+
+/* 5.MADDE MARGIN VE PADDING */
+
+.m0 {
+    margin: var(--mp0);
+}
+
+.m1 {
+    margin: var(--mp1);
+}
+
+.m2 {
+    margin: var(--mp2);
+}
+
+.m3 {
+    margin: var(--mp3);
+}
+
+.m4 {
+    margin: var(--mp4);
+}
+
+.m5 {
+    margin: var(--mp5);
+}
+
+.mt0 {
+    margin-top: var(--mp0);
+}
+
+.mt1 {
+    margin-top: var(--mp1);
+}
+
+.mt2 {
+    margin-top: var(--mp2);
+}
+
+.mt3 {
+    margin-top: var(--mp3);
+}
+
+.mt4 {
+    margin-top: var(--mp4);
+}
+
+.mt5 {
+    margin-top: var(--mp5);
+}
+
+.ml0 {
+    margin-left: var(--mp0);
+}
+
+.ml1 {
+    margin-left: var(--mp1);
+}
+
+.ml2 {
+    margin-left: var(--mp2);
+}
+
+.ml3 {
+    margin-left: var(--mp3);
+}
+
+.ml4 {
+    margin-left: var(--mp4);
+}
+
+.ml5 {
+    margin-left: var(--mp5);
+}
+
+.mr0 {
+    margin-right: var(--mp0);
+}
+
+.mr1 {
+    margin-right: var(--mp1);
+}
+
+.mr2 {
+    margin-right: var(--mp2);
+}
+
+.mr3 {
+    margin-right: var(--mp3);
+}
+
+.mr4 {
+    margin-right: var(--mp4);
+}
+
+.mr5 {
+    margin-right: var(--mp5);
+}
+
+.mb0 {
+    margin-bottom: var(--mp0);
+}
+
+.mb1 {
+    margin-bottom: var(--mp1);
+}
+
+.mb2 {
+    margin-bottom: var(--mp2);
+}
+
+.mb3 {
+    margin-bottom: var(--mp3);
+}
+
+.mb4 {
+    margin-bottom: var(--mp4);
+}
+
+.mb5 {
+    margin-bottom: var(--mp5);
+}
+
+
+.p0 {
+    padding: var(--pp0);
+}
+
+.p1 {
+    padding: var(--pp1);
+}
+
+.p2 {
+    padding: var(--pp2);
+}
+
+.p3 {
+    padding: var(--pp3);
+}
+
+.p4 {
+    padding: var(--pp4);
+}
+
+.p5 {
+    padding: var(--pp5);
+}
+
+.pt0 {
+    padding-top: var(--pp0);
+}
+
+.pt1 {
+    padding-top: var(--pp1);
+}
+
+.pt2 {
+    padding-top: var(--pp2);
+}
+
+.pt3 {
+    padding-top: var(--pp3);
+}
+
+.pt4 {
+    padding-top: var(--pp4);
+}
+
+.pt5 {
+    padding-top: var(--pp5);
+}
+
+.pl0 {
+    padding-left: var(--pp0);
+}
+
+.pl1 {
+    padding-left: var(--pp1);
+}
+
+.pl2 {
+    padding-left: var(--pp2);
+}
+
+.pl3 {
+    padding-left: var(--pp3);
+}
+
+.pl4 {
+    padding-left: var(--pp4);
+}
+
+.pl5 {
+    padding-left: var(--pp5);
+}
+
+.pr0 {
+    padding-right: var(--pp0);
+}
+
+.pr1 {
+    padding-right: var(--pp1);
+}
+
+.pr2 {
+    padding-right: var(--pp2);
+}
+
+.pr3 {
+    padding-right: var(--pp3);
+}
+
+.pr4 {
+    padding-right: var(--pp4);
+}
+
+.pr5 {
+    padding-right: var(--pp5);
+}
+
+.pb0 {
+    padding-bottom: var(--pp0);
+}
+
+.pb1 {
+    padding-bottom: var(--pp1);
+}
+
+.pb2 {
+    padding-bottom: var(--pp2);
+}
+
+.pb3 {
+    padding-bottom: var(--pp3);
+}
+
+.pb4 {
+    padding-bottom: var(--pp4);
+}
+
+.pb5 {
+    padding-bottom: var(--pp5);
+}
+
+/* 6.MADDE SLIDER */
+
+/* Slider */
+
+.slider-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider1,
+.slider2,
+.slider3 {
+    display: flex;
+    height: 100%;
+}
+
+.slider1 {
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+
+.slider2 {
+    animation: slide2 5s linear infinite;
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(-400%);
+    }
+
+    25% {
+        transform: translateX(-300%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.slider3 {
+    animation: slide3 5s linear infinite;
+}
+
+.slide-horizontal {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    25% {
+        transform: translateY(75%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+
+    75% {
+        transform: translateY(25%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* 7. Madde TABLOLAR */
+
+/* Responsive Table */
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Bordered Table */
+.bordered-table {
+    border: 1px solid #ccc;
+}
+
+.bordered-table th,
+.bordered-table td {
+    border: 1px solid #ccc;
+    padding: var(--pp1);
+}
+
+/* Striped Table */
+.striped-table tbody tr:nth-child(even) {
+    background-color: #0102015d;
+}
+
+/* Hoverable Table */
+.hoverable-table tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+/* 8. MADDE RESİM CLASSLARI */
+
+.imgcircular {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.imgrounded {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.imgregular {
+    width: 100%
+}
+
+/* 9.MADDE Butonlar */
+
+.btn-red,
+.btn-green,
+.btn-blue,
+.btn-gray,
+.btn-yellow,
+.btn-magenta,
+.btn-cyan,
+.btn-brown,
+.btn-pink,
+.btn-orange {
+    border: none;
+    padding: var(--pp1);
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--fs5);
+    cursor: pointer;
+}
+
+.btn-red-outlined,
+.btn-green-outlined,
+.btn-blue-outlined,
+.btn-gray-outlined,
+.btn-yellow-outlined,
+.btn-magenta-outlined,
+.btn-cyan-outlined,
+.btn-brown-outlined,
+.btn-pink-outlined,
+.btn-orange-outlined {
+    padding: var(--pp0);
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--fs5);
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+
+.btn-red {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: green;
+}
+
+.btn-red:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.btn-green {
+    background-color: rgba(0, 255, 0, 0.2);
+    color: red;
+}
+
+.btn-green:hover {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.btn-blue {
+    background-color: rgba(0, 0, 255, 0.2);
+    color: gray;
+}
+
+.btn-blue:hover {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.btn-gray {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: blue;
+}
+
+.btn-gray:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+.btn-yellow {
+    background-color: rgba(255, 255, 0, 0.2);
+    color: magenta;
+}
+
+.btn-yellow:hover {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.btn-magenta {
+    background-color: rgba(255, 0, 255, 0.2);
+    color: yellow;
+}
+
+.btn-magenta:hover {
+    background-color: rgba(255, 0, 255, 1);
+}
+
+.btn-cyan {
+    background-color: rgba(0, 255, 255, 0.2);
+    color: brown
+}
+
+.btn-cyan:hover {
+    background-color: rgba(0, 255, 255, 1);
+}
+
+.btn-brown {
+    background-color: rgba(101, 67, 33, 0.2);
+    color: cyan
+}
+
+.btn-brown:hover {
+    background-color: rgba(101, 67, 33, 1)
+}
+
+.btn-pink {
+    background-color: rgba(254, 52, 126, 0.2);
+    color: black;
+}
+
+.btn-pink:hover {
+    background-color: rgba(254, 52, 126, 1);
+}
+
+.btn-orange {
+    background-color: rgba(255, 140, 0, 0.2);
+    color: black;
+}
+
+.btn-orange:hover {
+    background-color: rgba(255, 140, 0, 1);
+}
+
+.btn-red-outlined {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 1px solid rgb(255, 0, 0);
+    color: green;
+}
+
+.btn-red-outlined:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.btn-green-outlined {
+    background-color: rgba(0, 255, 0, 0.2);
+    border: 1px solid rgb(0, 255, 0);
+    color: red;
+
+}
+
+.btn-green-outlined:hover {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.btn-blue-outlined {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 1px solid rgb(0, 0, 255);
+    color: gray;
+
+}
+
+.btn-blue-outlined:hover {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.btn-gray-outlined {
+    background-color: rgba(128, 128, 128, 0.2);
+    border: 1px solid rgb(128, 128, 128);
+    color: blue;
+
+}
+
+.btn-gray-outlined:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
+
+.btn-yellow-outlined {
+    background-color: rgba(255, 255, 0, 0.2);
+    border: 1px solid rgb(255, 255, 0);
+    color: magenta;
+
+}
+
+.btn-yellow-outlined:hover {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.btn-magenta-outlined {
+    background-color: rgba(255, 0, 255, 0.2);
+    border: 1px solid rgb(255, 0, 255);
+    color: yellow;
+}
+
+.btn-magenta-outlined:hover {
+    background-color: rgba(255, 0, 255, 1);
+}
+
+.btn-cyan-outlined {
+    background-color: rgba(0, 255, 255, 0.2);
+    border: 1px solid rgb(0, 255, 255);
+    color: brown;
+}
+
+.btn-cyan-outlined:hover {
+    background-color: rgba(0, 255, 255, 1);
+}
+
+.btn-brown-outlined {
+    background-color: rgba(101, 67, 33, 0.2);
+    border: 1px solid rgb(101, 67, 33);
+    color: cyan;
+}
+
+.btn-brown-outlined:hover {
+    background-color: rgba(101, 67, 33, 1);
+}
+
+.btn-pink-outlined {
+    background-color: rgba(254, 52, 126, 0.2);
+    border: 1px solid rgb(254, 52, 126);
+    color: black;
+}
+
+.btn-pink-outlined:hover {
+    background-color: rgba(254, 52, 126, 1);
+}
+
+.btn-orange-outlined {
+    background-color: rgba(255, 140, 0, 0.2);
+    border: 1px solid rgb(255, 140, 0);
+    color: black;
+}
+
+.btn-orange-outlined:hover {
+    background-color: rgba(255, 140, 0, 1);
+}
+
+
+/* 10.Madde IMAGE DIV CLASSLARI */
+
+.img-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.img-h-centered {
+    display: flex;
+    align-items: center;
+
+    background-color: gray;
+}
+
+
+.img-w-centered {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.img-w-centered img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-clipped {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+/* 11. MADDE NAVBARLAR */
+
+/* INLINE NAVBAR */
+.nav-inline {
+    width: 100%;
+}
+
+.nav-inline-menu {
+    list-style: none;
+    text-align: center;
+
+}
+
+.nav-inline-menu .menu-item {
+    display: inline;
+
+}
+
+.nav-inline-menu .menu-item a {
+    text-decoration: none;
+    background-color: var(--color-t3-red);
+    color: white;
+    margin: var(--mp1);
+    padding: var(--pp1);
+    border-radius: 3px;
+}
+
+.nav-inline-menu .menu-item a:hover {
+    background-color: var(--color-t2-red);
+
+}
+
+
+/* BLOCK NAVBAR */
+.nav-block {
+    width: 100%;
+}
+
+.nav-block .nav-block-menu {
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav-block-menu .menu-item {
+    padding: var(--pp1);
+    background-color: var(--color-t3-red);
+}
+
+.nav-block-menu .menu-item a {
+    text-decoration: none;
+    padding: var(--pp1);
+    color: white;
+    border-radius: 3px;
+}
+
+.nav-block-menu .menu-item a:hover {
+    background-color: var(--color-t2-red);
+}
+
+/* SOLA DAYALI NAVBAR */
+
+.nav-fixed {
+    width: 16.6%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #616161;
+    overflow-y: auto;
+}
+
+.nav-fixed .nav-fixed-menu {
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav-fixed-menu .menu-item {
+    margin-top: var(--mp2);
+    padding: var(--pp5);
+    transition: background-color 1s;
+
+}
+
+.nav-fixed-menu .menu-item:hover {
+    background-color: #292929;
+
+}
+
+.nav-fixed-menu .menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 12. DROPDOWN MENU */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px, 8px, 16px, 0px, rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: var(--pp1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 13. FORM ELEMANLARI */
+
+input {
+    background-color: rgba(128, 128, 128, 0.05)
+}
+
+input[type=text] {
+    width: 100%;
+    padding: var(--pp1);
+    margin-top: var(--mp1);
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: var(--color-t1-magenta);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE DEĞİŞKENLERİ */
+@media only screen and (max-width: 1024px) {
+    .col-md-1 {
+        grid-column: span 1;
+    }
+
+    .col-md-2 {
+        grid-column: span 2;
+    }
+
+    .col-md-3 {
+        grid-column: span 3;
+    }
+
+    .col-md-4 {
+        grid-column: span 4;
+    }
+
+    .col-md-5 {
+        grid-column: span 5;
+    }
+
+    .col-md-6 {
+        grid-column: span 6;
+    }
+
+    .col-md-7 {
+        grid-column: span 7;
+    }
+
+    .col-md-8 {
+        grid-column: span 8;
+    }
+
+    .col-md-9 {
+        grid-column: span 9;
+    }
+
+    .col-md-10 {
+        grid-column: span 10;
+    }
+
+    .col-md-11 {
+        grid-column: span 11;
+    }
+
+    .col-md-12 {
+        grid-column: span 12;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col-sm-1 {
+        grid-column: span 1;
+    }
+
+    .col-sm-2 {
+        grid-column: span 2;
+    }
+
+    .col-sm-3 {
+        grid-column: span 3;
+    }
+
+    .col-sm-4 {
+        grid-column: span 4;
+    }
+
+    .col-sm-5 {
+        grid-column: span 5;
+    }
+
+    .col-sm-6 {
+        grid-column: span 6;
+    }
+
+    .col-sm-7 {
+        grid-column: span 7;
+    }
+
+    .col-sm-8 {
+        grid-column: span 8;
+    }
+
+    .col-sm-9 {
+        grid-column: span 9;
+    }
+
+    .col-sm-10 {
+        grid-column: span 10;
+    }
+
+    .col-sm-11 {
+        grid-column: span 11;
+    }
+
+    .col-sm-12 {
+        grid-column: span 12;
+    }
+}

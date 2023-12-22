@@ -1,0 +1,62 @@
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\mutfak.exe.config
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\mutfak.exe
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\mutfak.pdb
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\Newtonsoft.Json.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\Newtonsoft.Json.xml
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.csproj.AssemblyReference.cache
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.Form1.resources
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.Properties.Resources.resources
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.csproj.GenerateResource.cache
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.csproj.CoreCompileInputs.cache
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.csproj.CopyComplete
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.exe
+C:\Users\salih\source\repos\mutfak\mutfak\obj\Debug\mutfak.pdb
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Buffers.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Memory.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Text.Json.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.ValueTuple.dll
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Buffers.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Memory.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Text.Json.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\salih\source\repos\mutfak\mutfak\bin\Debug\System.ValueTuple.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\mutfak.exe.config
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\mutfak.exe
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\mutfak.pdb
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Buffers.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Memory.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Text.Json.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.ValueTuple.dll
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Buffers.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Memory.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Text.Json.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\bin\Debug\System.ValueTuple.xml
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.csproj.AssemblyReference.cache
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.Form1.resources
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.Properties.Resources.resources
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.csproj.GenerateResource.cache
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.csproj.CoreCompileInputs.cache
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.csproj.CopyComplete
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.exe
+C:\Users\Melih SEZER\Desktop\mutfak\mutfak\obj\Debug\mutfak.pdb

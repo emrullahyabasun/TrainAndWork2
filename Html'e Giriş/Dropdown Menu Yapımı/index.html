@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropdownmenuExample</title>
+
+</head>
+
+<body>
+    <ul class="header-names">
+    <li><a href="">Anasayfa</a></li>
+    <li><a href="">Hakkımızda</a></li>
+    <li><a class="hover">Galeri</a>
+        <div class="gallery">
+            <ul class="gallery-heads">
+                <li>Doğa Resimleri</li>
+                <li>İnsan Resimleri</li>
+                <li>Araba Resimleri</li>
+                <li>Abstract Resimleri</li>
+            </ul>
+        </div></li>
+    <li><a href="">İletişim</a></li>
+</ul>
+   
+</body>
+
+<style>
+     .header-names {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+    
+    }
+
+     .header-names li {
+        display: inline;
+        list-style: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    } 
+
+    .header-names li a{
+       text-decoration: none; 
+    } 
+
+    strong {
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hidden2 {
+        visibility: hidden;
+    }
+
+
+    .gallery {
+        display: none;
+        position: absolute;
+        width: 200px;
+        height: auto;
+        padding: 10px !important;
+        background-color: rgb(105, 220, 224);
+        left: 200px;
+        top: 28px;
+    }
+
+    .gallery .gallery-heads {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .gallery .gallery-heads li {
+        display: block;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    
+
+   
+
+    .hover {
+        background-color: black;
+        color: white;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .hover:hover + .gallery {
+        display: block;
+    }
+</style>
+
+</html>
+
+ <!-- <div class="content">
+        <a class="hover">Sosyal Medya hesaplarımız</a>
+    </div>
+    <div class="content">
+        <a class="hover">Sosyal Medya hesaplarımız</a>
+    </div>
+    <div class="content">
+        <a class="hover">Sosyal Medya hesaplarımız</a>
+        <div class="social">
+            <ul class="social-media">
+                <li>Doğa Resimleri</li>
+                <li>İnsan Resimleri</li>
+                <li>Araba Resimleri</li>
+                <li>Abstract Resimleri</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <a class="hover">Sosyal Medya hesaplarımız</a>
+    </div> -->

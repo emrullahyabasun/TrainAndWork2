@@ -1,0 +1,41 @@
+function bke() {
+    
+    var boy = document.getElementById("boy").value;
+    var kilo = document.getElementById("kilo").value;
+    var yas = document.getElementById("yas").value;
+    var cinsiyet = document.getElementById("cinsiyet").value;
+
+    
+    var vki = kilo / ((boy / 100) ** 2);
+
+   
+    if (cinsiyet === "kadin") {
+        vki *= 0.9;
+    } else {
+        vki *= 1.1;
+    }
+
+    
+    if (yas >= 10 && yas < 20) {
+        vki *= 1.01;
+    } else if (yas >= 20 && yas < 30) {
+        vki *= 1.02;
+    } else if (yas >= 30) {
+        vki *= 1.03;
+    }
+
+    
+    var sonuc = "";
+    if (vki < 18.5) {
+        sonuc = "Zayıf";
+    } else if (vki >= 18.5 && vki <= 24.9) {
+        sonuc = "Normal";
+    } else if (vki >= 25 && vki <= 29.9) {
+        sonuc = "Kilolu";
+    } else {
+        sonuc = "Obez";
+    }
+
+   
+    document.getElementById("bkeSonuc").innerHTML = "VKİ Sonucu: " + vki.toFixed(2) + " - Durum: " + sonuc;
+}
