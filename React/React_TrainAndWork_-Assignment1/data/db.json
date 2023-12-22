@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Emrullah",
+      "password": "123",
+      "budget": 435155,
+      "library": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Selahaddin",
+      "password": "123",
+      "budget": 630,
+      "library": [
+        11,
+        10,
+        9
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Among Us",
+      "description": "Among Us Online bir oyundur.",
+      "price": 50,
+      "imageUrl": "Assets/GameCoverImages/AmongUs.png"
+    },
+    {
+      "id": 2,
+      "title": "Apex Legends",
+      "description": "Apex Legends Online bir oyundur.",
+      "price": 70,
+      "imageUrl": "Assets/GameCoverImages/ApexLegends.png"
+    },
+    {
+      "id": 3,
+      "title": "CS:GO",
+      "description": "CS:GO Online bir oyundur.",
+      "price": 60,
+      "imageUrl": "Assets/GameCoverImages/Csgo.png"
+    },
+    {
+      "id": 4,
+      "title": "Elden Ring",
+      "description": "Elden Ring bir MMORPG oyunudur.",
+      "price": 100,
+      "imageUrl": "Assets/GameCoverImages/EldenRing.png"
+    },
+    {
+      "id": 5,
+      "title": "Fifa 23",
+      "description": "Fifa 23 bir futbol oyunudur. ",
+      "price": 200,
+      "imageUrl": "Assets/GameCoverImages/Fifa23.png"
+    },
+    {
+      "id": 6,
+      "title": "High On Life",
+      "description": "High On Life bir FPS oyunudur.",
+      "price": 90,
+      "imageUrl": "Assets/GameCoverImages/HighOnLife.png"
+    },
+    {
+      "id": 7,
+      "title": "Hunt Showdown",
+      "description": "Hunt Showdown bir online FPS oyunudur.",
+      "price": 70,
+      "imageUrl": "Assets/GameCoverImages/HuntShowdown.png"
+    },
+    {
+      "id": 8,
+      "title": "In Silence",
+      "description": "In Silence bir korku oyunudur.",
+      "price": 70,
+      "imageUrl": "Assets/GameCoverImages/InSilence.png"
+    },
+    {
+      "id": 9,
+      "title": "Left 4 Dead 2",
+      "description": "Left 4 Dead 2 bir multiplayer korku oyunudur.",
+      "price": 120,
+      "imageUrl": "Assets/GameCoverImages/Left4Dead2.png"
+    },
+    {
+      "id": 10,
+      "title": "Mount & Blade 2",
+      "description": "Mount & Blade 2 bir strateji oyunudur.",
+      "price": 130,
+      "imageUrl": "Assets/GameCoverImages/MountAndBlade.png"
+    },
+    {
+      "id": 11,
+      "title": "PUBG",
+      "description": "PUBG bir battle royale oyunudur.",
+      "price": 120,
+      "imageUrl": "Assets/GameCoverImages/Pubg.png"
+    },
+    {
+      "id": 12,
+      "title": "Rainbow Six Siege",
+      "description": "Rainbow Six Siege bir FPS oyunudur.",
+      "price": 140,
+      "imageUrl": "Assets/GameCoverImages/R6.png"
+    },
+    {
+      "id": 13,
+      "title": "Red Dead Redemption 2",
+      "description": "Red Dead Redemption 2 bir western oyunudur.",
+      "price": 520,
+      "imageUrl": "Assets/GameCoverImages/RedDeadRedemption.png"
+    },
+    {
+      "id": 14,
+      "title": "Risk",
+      "description": "Risk bir strateji oyunudur",
+      "price": 320,
+      "imageUrl": "Assets/GameCoverImages/Risk.png"
+    },
+    {
+      "id": 15,
+      "title": "Rocket League",
+      "description": "Rocket League bir araba futbolu oyunudur.",
+      "price": 120,
+      "imageUrl": "Assets/GameCoverImages/RocketLeage.png"
+    },
+    {
+      "id": 16,
+      "title": "Sekiro Shadows Die Twice",
+      "description": "Sekiro Shadows Die Twice bir aksiyon oyunudur.",
+      "price": 130,
+      "imageUrl": "Assets/GameCoverImages/SekiroShadowsDieTwice.png"
+    },
+    {
+      "id": 17,
+      "title": "Sons of Forest",
+      "description": "Sons of Forest bir korku oyunudur.",
+      "price": 140,
+      "imageUrl": "Assets/GameCoverImages/SonsofForest.png"
+    },
+    {
+      "id": 18,
+      "title": "The Forest",
+      "description": "The Forest bir korku oyunudur.",
+      "price": 60,
+      "imageUrl": "Assets/GameCoverImages/TheForest.png"
+    },
+    {
+      "id": 19,
+      "title": "The Long Dark",
+      "description": "The Long Dark bir hayatta kalma oyunudur.",
+      "price": 90,
+      "imageUrl": "Assets/GameCoverImages/TheLongDark.png"
+    },
+    {
+      "id": 20,
+      "title": "Valheim",
+      "description": "Valheim bir hayatta kalma oyunudur.",
+      "price": 60,
+      "imageUrl": "Assets/GameCoverImages/Valheim.png"
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "gameId": 3,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "discountCodes": [
+    {
+      "code": "INDIRIM10",
+      "discountPercentage": 10
+    },
+    {
+      "code": "INDIRIM20",
+      "discountPercentage": 20
+    }
+  ]
+}
