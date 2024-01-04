@@ -1,0 +1,58 @@
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.exe.config
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.exe
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.pdb
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Buffers.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Memory.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Json.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.ValueTuple.dll
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Buffers.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Memory.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Json.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\bin\Debug\System.ValueTuple.xml
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.AssemblyReference.cache
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.Form1.resources
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.Properties.Resources.resources
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.GenerateResource.cache
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.CoreCompileInputs.cache
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.CopyComplete
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.exe
+C:\Users\bertangor61\Desktop\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.pdb
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.exe.config
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.exe
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\MusteriEkrani.pdb
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Buffers.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Memory.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Json.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.ValueTuple.dll
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Buffers.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Memory.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Text.Json.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\bin\Debug\System.ValueTuple.xml
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.AssemblyReference.cache
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.Form1.resources
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.Properties.Resources.resources
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.GenerateResource.cache
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.CoreCompileInputs.cache
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.csproj.CopyComplete
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.exe
+C:\Users\bertangor61\Desktop\fatihten gelen\MusteriEkrani\MusteriEkrani\obj\Debug\MusteriEkrani.pdb
