@@ -1,0 +1,27 @@
+.desktop-icons {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+};
+
+
+.app-img-container {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center; /* İsteğe bağlı: Resmi ortalamak için */
+}
+
+.app-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.login-card{
+  margin-top: 10%;
+}

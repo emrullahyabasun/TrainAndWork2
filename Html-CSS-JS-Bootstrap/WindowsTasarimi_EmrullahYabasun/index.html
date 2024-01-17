@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VeynOS23</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body
+    style="background-image: url('assets/images/Wallpaper.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <!-- Masaüstü İkonları -->
+    <div class="container-fluid">
+        <div type="button" onclick="pcOpen()" class="desktop-icons" data-bs-toggle="modal"
+            data-bs-target="#bilgisayarim">
+            <i class="fa-solid fa-desktop" style="font-size: 50px"></i>
+            <p>Bilgisayarım</p>
+        </div>
+        <div type="button" onclick="belgelerOpen()" class="desktop-icons" data-bs-toggle="modal"
+            data-bs-target="#belgelerim">
+            <i class="fa-solid fa-folder" style="font-size: 50px"></i>
+            <p>Belgelerim</p>
+        </div>
+        <div type="button" onclick=resimlerOpen() class="desktop-icons" data-bs-toggle="modal"
+            data-bs-target="#resimler">
+            <i class="fa-solid fa-image" style="font-size: 50px"></i>
+            <p>Resimler</p>
+        </div>
+        <div type="button" onclick="appOpen()" class="desktop-icons" data-bs-toggle="modal"
+            data-bs-target="#uygulamalar">
+            <i class="fa-solid fa-cube" style="font-size: 50px"></i>
+            <p>Uygulamalar</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Klasör Modalları -->
+
+
+
+    <!--Modal Bilgisayarim -->
+    <div class="modal fade" id="bilgisayarim" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h3 class="h3">Bilgisayarım</h3>
+                    <button class="close btn btn-danger btn-sm" type="button" onclick="pcClose()"
+                        data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Hızlı Erişim -->
+                        <div class="col-3" style=" border: 1px solid gray;">
+                            <h3>Hızlı Erişim</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                    <p>Bilgisayarım</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                    <p>Belgelerim</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                        <i class="fa-solid fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                    <p>Resimler</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                        <i class="fa-solid fa-cube"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                    <p>Uygulamalar</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- İçerik -->
+                        <div class="col-9">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="mt-4">
+                                                <i class="fa-regular fa-hard-drive fa-2xl ms-3 modal-icons "></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-9">
+                                            <label style="font-size: small;" for="">Emrullah (C:)</label>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%;"
+                                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                                            </div>
+                                            <small class="form-text text-muted">577 GB Boş; 952 GB Toplam</small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Belgelerim -->
+    <div class="modal fade" id="belgelerim" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h3 class="h3">Belgelerim</h3>
+                    <button class="close btn btn-danger btn-sm" type="button" onclick="belgelerClose()"
+                        data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Hızlı Erişim -->
+                        <div class="col-3" style=" border: 1px solid gray;">
+                            <h3>Hızlı Erişim</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                    <p>Bilgisayarım</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                    <p>Belgelerim</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                        <i class="fa-solid fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                    <p>Resimler</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                        <i class="fa-solid fa-cube"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                    <p>Uygulamalar</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- İçerik -->
+                        <div class="col-9">
+
+                            <div class="container-fluid " style="display: flex;">
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#word">
+                                    <i class="fa-solid fa-file-word" style="font-size: 50px"></i>
+                                    <p>Word</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#excel">
+                                    <i class="fa-regular fa-file-excel" style="font-size: 50px"></i>
+                                    <p>Excel</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#powerpoint">
+                                    <i class="fa-solid fa-file-powerpoint" style="font-size: 50px"></i>
+                                    <p>PowerPoint</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Resimler -->
+    <div class="modal fade" id="resimler" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h3 class="h3">Resimler</h3>
+                    <button class="close btn btn-danger btn-sm" type="button" onclick="resimlerClose()"
+                        data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Hızlı Erişim -->
+                        <div class="col-3" style=" border: 1px solid gray;">
+                            <h3>Hızlı Erişim</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                    <p>Bilgisayarım</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                    <p>Belgelerim</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                        <i class="fa-solid fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                    <p>Resimler</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                        <i class="fa-solid fa-cube"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                    <p>Uygulamalar</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- İçerik -->
+                        <div class="col-9">
+                            <div class="container-fluid " style="display: flex;">
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#w1">
+                                    <i class="fa-solid fa-images" style="font-size: 50px"></i>
+                                    <p>Wallpaper1</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#w2">
+                                    <i class="fa-solid fa-images" style="font-size: 50px"></i>
+                                    <p>Wallpaper2</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#w3">
+                                    <i class="fa-solid fa-images" style="font-size: 50px"></i>
+                                    <p>Wallpaper3</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#w4">
+                                    <i class="fa-solid fa-images" style="font-size: 50px"></i>
+                                    <p>Wallpaper4</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#w5">
+                                    <i class="fa-solid fa-images" style="font-size: 50px"></i>
+                                    <p>Wallpaper5</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Uygulamalar -->
+    <div class="modal fade" id="uygulamalar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h3 class="h3">Uygulamalar</h3>
+                    <button class="close btn btn-danger btn-sm" type="button" onclick="appClose()"
+                        data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Hızlı Erişim -->
+                        <div class="col-3" style=" border: 1px solid gray;">
+                            <h3>Hızlı Erişim</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#bilgisayarim">
+                                    <p>Bilgisayarım</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                        <i class="fa-solid fa-folder"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#belgelerim">
+                                    <p>Belgelerim</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                        <i class="fa-solid fa-image"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#resimler">
+                                    <p>Resimler</p>
+                                </div>
+                                <div class="offset-md-1 col-1">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                        <i class="fa-solid fa-cube"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9 " type="button" data-bs-toggle="modal" data-bs-target="#uygulamalar">
+                                    <p>Uygulamalar</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- İçerik -->
+                        <div class="col-9">
+                            <div class="container-fluid " style="display: flex;">
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#steam">
+                                    <i class="fa-brands fa-steam" style="font-size: 50px"></i>
+                                    <p>Steam</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#spotify">
+                                    <i class="fa-brands fa-spotify" style="font-size: 50px"></i>
+                                    <p>Spotify</p>
+                                </div>
+                                <div class="desktop-icons ms-5" data-bs-toggle="modal" data-bs-target="#vscode">
+                                    <i class="fa-solid fa-code" style="font-size: 50px"></i>
+                                    <p>IDE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- İÇERİK MODALLARI -->
+    <!-- WORD MODAL -->
+    <div class="modal fade" id="word" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Word</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#belgelerim">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/word.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EXCEL MODAL -->
+    <div class="modal fade" id="excel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Word</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#belgelerim">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/excel.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PowerPoint MODAL -->
+    <div class="modal fade" id="powerpoint" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Word</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#belgelerim">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/powerpoint.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallpaper 1 MODAL -->
+    <div class="modal fade" id="w1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Wallpaper 1</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#resimler">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/w1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallpaper 2 MODAL -->
+    <div class="modal fade" id="w2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Wallpaper 2</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#resimler">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/w2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallpaper 3 MODAL -->
+    <div class="modal fade" id="w3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Wallpaper 3</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#resimler">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/w3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallpaper 4 MODAL -->
+    <div class="modal fade" id="w4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Wallpaper 4</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#resimler">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/w4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wallpaper 5 MODAL -->
+    <div class="modal fade" id="w5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Wallpaper 5</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#resimler">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/w5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Steam MODAL -->
+    <div class="modal fade" id="steam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Steam</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#uygulamalar">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/steam.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Spotify MODAL -->
+    <div class="modal fade" id="spotify" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">Spotify</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#uygulamalar">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/spotify.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- VS CODE MODAL -->
+    <div class="modal fade" id="vscode" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog 	modal-xl" role="document">
+            <div class="modal-content" style="height: 85vh;">
+                <div class="modal-header">
+                    <h5 class="h5">VS CODE</h5>
+                    <button class="close btn btn-dark btn-sm" type="button" data-bs-toggle="modal"
+                        data-bs-target="#uygulamalar">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="app-img-container">
+                        <img class="app-img" src="assets/images/vscode.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Başlat Çubuğu -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-bottom ">
+        <div class="container-fluid">
+            <!-- Windows Logo Dropup -->
+            <div class="dropup">
+                <button role="button" type="button" class="btn dropdown" data-bs-toggle="dropdown">
+                    <i class="fab fa-windows"></i>
+                </button>
+                <ul class="dropdown-menu ps-3 pb-3 p-5">
+                    <li><a onclick="appOpen()" data-bs-toggle="modal" data-bs-target="#uygulamalar"
+                            class="dropdown-item" href="#"> <i class="fa-solid fa-cube"></i> Uygulamalar</a></li>
+                    <li><a onclick="resimlerOpen()" data-bs-toggle="modal" data-bs-target="#resimler"
+                            class="dropdown-item" href="#"> <i class="fa-solid fa-image"></i></i> Resimler</a></li>
+                    <li><a onclick="belgelerOpen()" data-bs-toggle="modal" data-bs-target="#belgelerim"
+                            class="dropdown-item" href="#"> <i class="fa-solid fa-folder"></i> Belgelerim</a></li>
+                    <li><a onclick="pcOpen()" data-bs-toggle="modal" data-bs-target="#bilgisayarim"
+                            class="dropdown-item" href="#"> <i class="fas fa-desktop"></i> Bilgisayarım</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#"> <i class="fas fa-power-off"></i> Bilgisayarı Kapat</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Search Bar -->
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+            <!-- Bilgisayar -->
+            <i class="fa-solid fa-desktop ms-5" style="font-size: 25px; display: none;" id="bilgisayar"></i>
+            <!-- Belgelerim -->
+            <i class="fa-solid fa-folder ms-5" style="font-size: 25px; display: none;" id="belgeler"></i>
+            <!-- Resimler -->
+            <i class="fa-solid fa-image ms-5" style="font-size: 25px; display: none;" id="resimlerr"></i>
+            <!-- Uygulamalar -->
+            <i class="fa-solid fa-cube ms-5" style="font-size: 25px; display: none;" id="uygulamalarr"></i>
+            <!-- Sag Taraf İkonar -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <div class="dropup">
+                            <button type="button" class="btn dropdown" data-bs-toggle="dropdown">
+                                <i class="fa-solid fa-angle-up"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-brands fa-steam"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-brands fa-spotify"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TUR&nbsp<i class="fa-regular fa-keyboard"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-wifi"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-volume-xmark"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-battery-full"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link text-center"><span style="display: flex; font-size: smaller;"
+                                id="saat"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link text-center"><span style="display: flex; font-size: smaller;"
+                                id="tarih"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <script>
+        // BAŞLAT ÇUBUĞU IKON
+        function pcOpen() {
+            document.getElementById("bilgisayar").style.display = "flex"
+
+        }
+        function pcClose() {
+            document.getElementById("bilgisayar").style.display = "none"
+        }
+        function belgelerOpen() {
+
+            document.getElementById("belgeler").style.display = "flex"
+
+
+        }
+        function belgelerClose() {
+            document.getElementById("belgeler").style.display = "none"
+        }
+        function resimlerOpen() {
+
+            document.getElementById("resimlerr").style.display = "flex"
+
+        }
+        function resimlerClose() {
+            document.getElementById("resimlerr").style.display = "none"
+        }
+        function appOpen() {
+
+            document.getElementById("uygulamalarr").style.display = "flex"
+        }
+        function appClose() {
+            document.getElementById("uygulamalarr").style.display = "none"
+        }
+
+
+
+        // SAAT VE TARİH
+        window.onload = saatBaslangic();
+        function saatBaslangic() {
+            var tarih = new Date();
+            var saat = tarih.getHours();
+            var dakika = tarih.getMinutes();
+            var day = tarih.getDate();
+            var ay = tarih.getMonth() + 1
+            var yil = tarih.getFullYear()
+            saat = saatKontrol(saat);
+            dakika = saatKontrol(dakika);
+
+            document.getElementById('saat').innerHTML = saat + ":" + dakika;
+            document.getElementById('tarih').innerHTML = day + "." + ay + "." + yil
+
+        }
+        setInterval('saatBaslangic()', 1000);
+        function saatKontrol(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
