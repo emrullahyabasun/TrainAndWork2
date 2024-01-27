@@ -1,0 +1,67 @@
+﻿@model VeynVoyage.Areas.Admin.ViewModel.AdminDashboardViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<section class="site-section bg-light">
+
+	<div class="container-lg">
+		<h2>Kullanıcılar</h2>
+		<div class="table-responsive">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Email</th>
+						<th>Roller</th>
+						<th>İşlemler</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var userWithRoles in Model.UsersWithRoles)
+					{
+						<tr>
+							<td><strong>@userWithRoles.Email</strong></td>
+							<td>@string.Join(", ", userWithRoles.Roles)</td>
+							<td>
+								<a asp-action="EditUser" asp-route-id="@userWithRoles.UserId" class="btn btn-info btn-sm">Düzenle</a>
+								<a asp-action="DeleteUser" asp-route-id="@userWithRoles.UserId" class="btn btn-danger btn-sm">Sil</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="container-lg">
+		<h2>Roller</h2>
+		<div class="table-responsive">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Rol Adı</th>
+						<th>İşlemler</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var role in Model.Roles)
+					{
+						<tr>
+							<td><strong>@role.Name</strong></td>
+							<td>
+								<a asp-action="EditRole" asp-route-id="@role.Id" class="btn btn-info btn-sm">Düzenle</a>
+								<a asp-action="DeleteRole" asp-route-id="@role.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bu rolü silmek istediğinize emin misiniz?');">Sil</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>

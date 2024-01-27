@@ -1,0 +1,51 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+
+@model VeynVoyage.Areas.User.ViewModels.ReservationViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="site-hero site-hero-innerpage overlay" data-stellar-background-ratio="0.5" style="background-image: url(@(Model.ImageUrl));">
+    <div class="container">
+        <div class="row align-items-center site-hero-inner justify-content-center">
+            <div class="col-md-12 text-center">
+
+                <div class="mb-5 element-animate">
+                    <h1>Rezervasyon Oluşturun!</h1>
+                    <p>En iyi deneyimi keşfedin!</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END section -->
+
+<div class="container my-5">
+    
+
+    <h2>@Model.RoomName Rezervasyonu</h2>
+    <form action="Reserve" method="post">
+
+        <input name="imageUrl" id="imageUrl" type="text" class="d-none" value="@Model.ImageUrl" />
+        @* <input type="hidden" name="roompriceperday" value="@Model.Price" /> *@
+        <input type="hidden" name="roomPricePerDay" value="@Model.Price" />
+
+        <input type="hidden" name="roomId" id="roomId" value="@Model.RoomId" @* asp-for="RoomId" *@ />
+        <div class="mb-3">
+            <label asp-for="CheckInDate" class="form-label"></label>
+            <input @* asp-for="CheckInDate" *@ name="checkinDate" id="checkinDate"  class="form-control" type="date" />
+            <span asp-validation-for="CheckInDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CheckOutDate" class="form-label"></label>
+            <input @* asp-for="CheckOutDate" *@ name="checkoutDate" id="checkoutDate" class="form-control" type="date" />
+            <span asp-validation-for="CheckOutDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Rezervasyonu Onayla</button>
+        </div>
+    </form>
+</div>

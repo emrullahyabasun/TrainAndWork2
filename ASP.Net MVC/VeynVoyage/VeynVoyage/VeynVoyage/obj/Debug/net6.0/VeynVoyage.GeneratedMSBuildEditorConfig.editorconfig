@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VeynVoyage
+build_property.RootNamespace = VeynVoyage
+build_property.ProjectDir = C:\Emrullah\Architecht\03_Train_and_Work_3\02_OUTGOING\VeynVoyage\VeynVoyage\VeynVoyage\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Emrullah\Architecht\03_Train_and_Work_3\02_OUTGOING\VeynVoyage\VeynVoyage\VeynVoyage
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lXEFib3V0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Room/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSb29tXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Room/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSb29tXE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Room/Reserve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSb29tXFJlc2VydmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Areas/User/Views/Room/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xSb29tXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Emrullah/Architecht/03_Train_and_Work_3/02_OUTGOING/VeynVoyage/VeynVoyage/VeynVoyage/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b8t6xl3yok
